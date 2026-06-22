@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球 10 大企業營收成長排行榜</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>全球 10 大企業營收成長排行榜</h1>
+        <p class="subtitle">數據來源：最新 Fortune Global 500 財富世界 500 強排行榜</p>
+        
+        <div class="chart-container">
+            <canvas id="revenueChart"></canvas>
+        </div>
+
+        <div class="table-container">
+            <table id="companyTable">
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>企業名稱</th>
+                        <th>總部所在地</th>
+                        <th>年營收 (億美元)</th>
+                        <th>年成長率</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
